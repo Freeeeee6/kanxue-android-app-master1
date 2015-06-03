@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pediy.bbs.kanxue"
+    android:versionCode="11"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+
+    <application
+        android:name="com.pediy.bbs.kanxue.App"
+        android:allowBackup="true"
+        android:icon="@drawable/kanxue"
+        android:label="@string/app_name"
+        android:theme="@style/NormalPageTheme" >
+        <activity
+            android:name="com.pediy.bbs.kanxue.SplashActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pediy.bbs.kanxue.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NormalPageTheme" >
+        </activity>
+        <activity
+            android:name="com.pediy.bbs.kanxue.ForumHomePage"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pediy.bbs.kanxue.ForumDisplayPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.pediy.bbs.kanxue.ShowThreadPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.pediy.bbs.kanxue.LoginPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.pediy.bbs.kanxue.NewThreadPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.pediy.bbs.kanxue.SettingPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.pediy.bbs.kanxue.FeedbackPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.pediy.bbs.kanxue.UserInfoPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.pediy.bbs.kanxue.AboutPage"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.zdp.aseo.content.AseoZdpUpdateService" />
+
+        <activity
+            android:name="com.iflytek.voiceads.request.IFLYBrowser"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="IFLYTEK_APPKEY_AD"
+            android:value="54fe544f" />
+    </application>
+
+</manifest>

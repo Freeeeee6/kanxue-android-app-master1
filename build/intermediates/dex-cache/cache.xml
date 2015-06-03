@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Android\Demo\kanxue-android-app-master1\app\libs\Ad_Android_SDK.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c6f3cdc572ddfd37a19f1c1fdb96cda324e8a12a">
+        <dex dex="E:\Android\Demo\kanxue-android-app-master1\app\build\intermediates\pre-dexed\debug\Ad_Android_SDK-c7815cdceb4018f60fd5d4f925c7e479989178ee.jar" />
+    </item>
+    <item
+        jar="E:\Android\Demo\kanxue-android-app-master1\app\libs\Aseo.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="30abe4514b191eb61ff738bf540bf69ad4ef54f3">
+        <dex dex="E:\Android\Demo\kanxue-android-app-master1\app\build\intermediates\pre-dexed\debug\Aseo-072892365f1abf50f1e9f5548b2b4e87bbc3632b.jar" />
+    </item>
+    <item
+        jar="E:\Android\Demo\kanxue-android-app-master1\app\libs\fastjson-1.1.26-android.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="27c8a40f2ac96bd66627b3ee0880c7e69accfa28">
+        <dex dex="E:\Android\Demo\kanxue-android-app-master1\app\build\intermediates\pre-dexed\debug\fastjson-1.1.26-android-7a6ab8ff24b6d748f4d7d49965588093b76f4baa.jar" />
+    </item>
+
+</items>
